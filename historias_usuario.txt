@@ -1,0 +1,38 @@
+Converter Números Inteiros em Números Romanos:
+
+Como um usuário
+Quero converter números inteiros em seus equivalentes em algarismos romanos
+Para que eu possa visualizar números no formato romano.
+
+    Critérios de Aceite:
+
+    Cenário:Número inserido com sucesso
+    Dado que o usuário está com a aplicação aberta
+    Quando o mesmo inserir um número no console
+    Então deve ser exibido o seu euqivalente em algarismos romanos
+
+    Cenário: Número fora do escopo (1 - 3000)
+    Dado que o usuário está com a aplicação aberta
+    Quando ele inserir um número menor que 1 ou maior que 3000
+    Então será exibido um erro informando que o número excedeu o escopo, sendo necessário reinserir um número válido
+
+
+Poder inserir N números:
+
+Como um usuário
+Quero poder converter diversos números sem precisar reiniciar a aplicação toda vez
+Para tornar a experiência mais ágil e menos manual
+
+    Critérios de Aceite:
+
+    Cenário: Looping funcionando corretamente
+    Dado que o usuário esteja com a aplicação aberta
+    E tenha inserido um número para conversão
+    Quando a conversão for exibida
+    Então deverá ser possível inserir um novo número
+
+    Cenário: Sair do looping
+    Dado que o usuário esteja com a aplicação aberta
+    E tenha inserido (ou não) algum número
+    Quando ele selecionar a opção para fechar
+    Então o programa deverá ser fechado
